@@ -1,0 +1,12 @@
+{
+  "name": "localca-checker",
+  "version": "1.0.0",
+  "description": "Certificate bundle analyzer for local root CA validation",
+  "main": "bin/localca-checker.js",
+  "bin": {
+    "localca-checker": "./bin/localca-checker.js"
+  },
+  "author": "Burak",
+  "license": "MIT"
+}
+
