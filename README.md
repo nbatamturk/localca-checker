@@ -20,25 +20,26 @@
 
 ```bash
 npm install -g localca-checker
-
----
+```
 
 ## 📎 Usage
+
+```bash
 localca-checker ./your-cert-bundle.crt
+```
 
 ---
 
 ## 📃 Example Output
+```html
 📜 Certificate #74 – QuoVadis Root CA 2
   Key Size            : FAILED - Insecure key (384 bits)
   SHA1                : WARNING - Using SHA1 (Deprecated)
   MD5                 : PASSED - Not using MD5
-
+```
 ---
   
 ## 📜 License
 MIT License. Use freely, contribute happily.
 
 ---
-
-
